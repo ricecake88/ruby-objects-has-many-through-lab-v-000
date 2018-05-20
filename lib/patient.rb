@@ -4,6 +4,7 @@ class Patient
   
   def initialize(name)
     @name = name
+<<<<<<< HEAD
     @appts = []
   end
   
@@ -23,5 +24,7 @@ class Patient
   def doctors
     allDoctors = @appts.map {|appt| appt.doctor if appt.patient == self}
     allDoctors.uniq
+=======
+>>>>>>> cea9f6fac0826b67af145beec9f115c06bbb1f7c
   end
 end

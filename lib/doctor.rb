@@ -1,4 +1,5 @@
 class Doctor
+<<<<<<< HEAD
   attr_accessor :patients, :name
 
   @@all = []
@@ -28,5 +29,12 @@ class Doctor
   def patients
     allPatients = @appts.map {|appt| appt.patient }
     allPatients.uniq
+=======
+  attr_accessor :patients
+  attr_reader :name
+  
+  def initialize(name)
+    @name = name
+>>>>>>> cea9f6fac0826b67af145beec9f115c06bbb1f7c
   end
 end

@@ -1,5 +1,6 @@
 class Appointment
   attr_accessor :doctor, :patient
+<<<<<<< HEAD
   
   @@all = []
   
@@ -13,4 +14,6 @@ class Appointment
   def self.all
     @@all
   end
+=======
+>>>>>>> cea9f6fac0826b67af145beec9f115c06bbb1f7c
 end
